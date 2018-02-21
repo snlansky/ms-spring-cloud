@@ -1,5 +1,7 @@
 package com.itmuch.cloud.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -46,6 +48,12 @@ public class UserController {
 	@PostMapping("/user")
 	public User postUser(@RequestBody User user) {
 		return user;
+	}
+	
+	@GetMapping("/list-all")
+	public List<User> listAll(){		
+		List<User> list = userRepository.findAll();
+		return list;
 	}
 
 }

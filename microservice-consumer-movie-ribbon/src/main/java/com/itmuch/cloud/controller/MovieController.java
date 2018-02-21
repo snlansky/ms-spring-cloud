@@ -1,5 +1,8 @@
 package com.itmuch.cloud.controller;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -30,5 +33,15 @@ public class MovieController {
 	public ServiceInstance test() {
 		ServiceInstance serviceInstance = loadBalancerClient.choose("microservice-provider-user");
 		return serviceInstance;
+	}
+	
+	@GetMapping("/list-all")
+	public List<User> listAll(){
+		// wrong
+		// List<User> l1 = restTemplate.getForObject("http://microservice-provider-user/list-all/", List.class);
+		
+		User[] users = restTemplate.getForObject("http://microservice-provider-user/list-all/", User[].class);
+		List<User> list = Arrays.asList(users);
+		return list;
 	}
 }

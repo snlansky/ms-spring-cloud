@@ -10,6 +10,18 @@ import javax.persistence.Id;
 
 @Entity
 public class User{
+	
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(Long id, String username) {
+		super();
+		this.id = id;
+		this.username = username;
+	}
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
