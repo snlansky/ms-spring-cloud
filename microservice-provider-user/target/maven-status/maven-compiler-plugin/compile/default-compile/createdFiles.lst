@@ -1,4 +1,0 @@
-com\itmuch\cloud\entity\User.class
-com\itmuch\cloud\repository\UserRepository.class
-com\itmuch\cloud\MicroserviceSimpleProviderUserApplication.class
-com\itmuch\cloud\controller\UserController.class

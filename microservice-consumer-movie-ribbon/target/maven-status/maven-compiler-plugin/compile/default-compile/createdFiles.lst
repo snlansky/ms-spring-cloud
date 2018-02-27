@@ -1,5 +1,0 @@
-com\itmuch\cloud\ConsumerMovieRibbonApplication.class
-com\itmuch\cloud\controller\MovieController.class
-com\itmuch\cloud\entity\User.class
-com\itmuch\cloud\ExcludeFromComponentScan.class
-com\itmuch\cloud\TestConfiguration.class
