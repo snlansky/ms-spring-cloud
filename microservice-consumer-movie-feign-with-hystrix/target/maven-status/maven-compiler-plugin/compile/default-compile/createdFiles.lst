@@ -1,0 +1,5 @@
+com\itmuch\cloud\controller\MovieController.class
+com\itmuch\cloud\entity\User.class
+com\itmuch\cloud\feign\UserFeignClient.class
+com\itmuch\cloud\ConsumerMovieFeignApplication.class
+com\itmuch\cloud\feign\HystrixClientFallback.class

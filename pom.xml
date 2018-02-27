@@ -24,6 +24,8 @@
 		<module>microservice-consumer-movie-feign-with-hystrix-factory</module>
 		<module>microservice-hystrix-dashboard</module>
 		<module>microservice-hystrix-turbine</module>
+		<module>microservice-gateway-zuul</module>
+		<module>microservice-gateway-zuul-reg-exp</module>
 	</modules>
 
 	<properties>
@@ -50,6 +52,7 @@
 	</dependencyManagement>
 
 	<build>
+		<defaultGoal>compile</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

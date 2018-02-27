@@ -1,0 +1,7 @@
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\feign\HystrixClientFactory.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\entity\User.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\controller\MovieController.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\feign\UserFeignClientWithFactory.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\ConsumerMovieFeignApplication.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\feign\HystrixClientFallback.java
+E:\OneDrive\JavaPath\microservice-spring-cloud\microservice-consumer-movie-feign-with-hystrix-factory\src\main\java\com\itmuch\cloud\feign\UserFeignClient.java
